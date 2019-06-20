@@ -91,7 +91,9 @@ public class BuyerOrderController {
     // 取消订单
     @PostMapping("/cancel")
     public ResultVO cancel(@RequestParam("openid") String openid,
-                               @RequestParam("orderId") String orderId) {
+                           @RequestParam("orderId") String orderId) {
+
+
             buyerService.cancelOrder(openid, orderId);
         return ResultVOUtil.success();
     }
