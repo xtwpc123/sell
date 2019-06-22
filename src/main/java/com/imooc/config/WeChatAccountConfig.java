@@ -13,6 +13,5 @@ import org.springframework.stereotype.Component;
 @Component
 @ConfigurationProperties(prefix = "wechat")
 public class WeChatAccountConfig {
-
     private String
 }
