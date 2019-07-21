@@ -1,6 +1,5 @@
 package com.imooc.dto;
 
-import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.databind.annotation.JsonSerialize;
 import com.imooc.dataobject.OrderDetail;
 import com.imooc.utils.serializer.Date2LongSerializer;
@@ -83,4 +82,6 @@ public class OrderDTO {
      * 订单详情列表
      */
     List<OrderDetail> orderDetailList;
+
+
 }

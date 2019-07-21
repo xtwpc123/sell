@@ -23,6 +23,7 @@ public class WeixinController {
         RestTemplate restTemplate = new RestTemplate();
         String response = restTemplate.getForObject(url, String.class);
         log.info("response={}",response);
+
     }
 
 }

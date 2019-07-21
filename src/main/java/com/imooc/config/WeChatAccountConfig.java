@@ -9,10 +9,10 @@ import org.springframework.stereotype.Component;
  * @date: 2019/6/19 20:57
  * @description:
  */
-@Data
-@Component
-@ConfigurationProperties(prefix = "wechat")
-public class WeChatAccountConfig {
-
-    private String
-}
+//@Data
+//@Component
+//@ConfigurationProperties(prefix = "wechat")
+//public class WeChatAccountConfig {
+//
+//    private String
+//}

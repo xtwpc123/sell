@@ -13,24 +13,24 @@ import org.springframework.stereotype.Component;
  * @date: 2019/6/19 20:49
  * @description:
  */
-@Component
-public class WeChatMpConfig {
-
-    @Autowired
-    private WeChatAccountConfig accountConfig;
-
-    @Bean
-    public WxMpService wxMpService() {
-        WxMpService wxMpService = new WxMpServiceImpl();
-        wxMpService.setWxMpConfigStorage(wxMpConfigStorage());
-        return wxMpService;
-    }
-
-    @Bean
-    public WxMpConfigStorage wxMpConfigStorage() {
-        WxMpInMemoryConfigStorage wxMpConfigStorage = new WxMpInMemoryConfigStorage();
-        wxMpConfigStorage.setAppId();
-        wxMpConfigStorage.setSecret();
-        return wxMpConfigStorage;
-    }
-}
+//@Component
+//public class WeChatMpConfig {
+//
+//    @Autowired
+//    private WeChatAccountConfig accountConfig;
+//
+//    @Bean
+//    public WxMpService wxMpService() {
+//        WxMpService wxMpService = new WxMpServiceImpl();
+//        wxMpService.setWxMpConfigStorage(wxMpConfigStorage());
+//        return wxMpService;
+//    }
+//
+//    @Bean
+//    public WxMpConfigStorage wxMpConfigStorage() {
+//        WxMpInMemoryConfigStorage wxMpConfigStorage = new WxMpInMemoryConfigStorage();
+//        wxMpConfigStorage.setAppId();
+//        wxMpConfigStorage.setSecret();
+//        return wxMpConfigStorage;
+//    }
+//}
